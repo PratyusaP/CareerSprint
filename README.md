@@ -32,6 +32,7 @@ CareerSprint/
 ├── app.py                # Main UI, Session State Memory, and audio routing
 ├── check.py              # Local testing and debugging script
 └── requirements.txt      # Package dependencies for cloud deployment
+```
 
 ## 🛠️ Installation & Setup
 
@@ -54,4 +55,6 @@ pip install -r requirements.txt
 
 # 5. Run the application
 streamlit run app.py
+```
+
 
