@@ -1,0 +1,16 @@
+# Security
+config/
+.env
+
+# Database and Testing Data
+faiss_index/
+data/
+
+# Python Virtual Environments
+venv/
+env/
+__pycache__/
+*.pyc
+
+# OS generated files
+.DS_Store
