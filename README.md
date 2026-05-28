@@ -34,27 +34,35 @@ CareerSprint/
 └── requirements.txt      # Package dependencies for cloud deployment
 ```
 
-## 🛠️ Installation & Setup
+# 🛠️ Installation & Setup
 
 Follow these steps to get CareerSprint running on your local machine:
 
+**1. Clone the repository**
 ```bash
-# 1. Clone the repository
-git clone [https://github.com/PratyusaP/CareerSprint.git](https://github.com/PratyusaP/CareerSprint.git)
+git clone https://github.com/PratyusaP/CareerSprint.git
 cd CareerSprint
-
-# 2. Create and activate a virtual environment (Windows)
-python -m venv venv
-venv\Scripts\activate
-
-# 3. Install dependencies
-pip install -r requirements.txt
-
-# 4. Set up environment variables
-# Create a .env file in the root directory and add: GEMINI_API_KEY="your_api_key_here"
-
-# 5. Run the application
-streamlit run app.py
 ```
 
+**2. Create and activate a virtual environment (Windows)**
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+**3. Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+**4. Set up environment variables**
+Create a `.env` file in the root directory and add:
+```env
+GEMINI_API_KEY="your_api_key_here"
+```
+
+**5. Run the application**
+```bash
+streamlit run app.py
+```
 
